@@ -1,0 +1,4 @@
+model,accuracy,precision_lapsed,recall_lapsed,f1_lapsed,tn_fp_fn_tp,best_params,best_cv_f1,confusion_matrix
+baseline_not_lapsed,0.6163793103448276,0.0,0.0,0.0,"[143, 0, 89, 0]",,,
+logistic,0.728448275862069,0.6444444444444445,0.651685393258427,0.6480446927374302,,{'model__C': 100},0.650552962900789,"[[111, 32], [31, 58]]"
+random_forest,0.6896551724137931,0.5913978494623656,0.6179775280898876,0.6043956043956044,,"{'model__max_depth': 8, 'model__min_samples_leaf': 5}",0.6922643464351014,"[[105, 38], [34, 55]]"
